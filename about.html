@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <link rel="stylesheet" type="text/css" href="style/navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 
@@ -14,22 +15,8 @@
     <div class="nav-link"><a href="main.html">Home</a></div>
     <div class="nav-link nav-link-active"><a href="about.html">About</a></div>
     <div class="dropdown">
-        <button class="dropbtn">Birds</button>
-        <div class="dropdown-content">
-            <a href="#">Bird1</a>
-            <a href="#">Bird2</a>
-            <a href="#">Bird3</a>
-            <a href="#">Bird4</a>
-            <a href="#">Bird5</a>
-            <a href="#">Bird6</a>
-            <a href="#">Bird8</a>
-            <a href="#">Bird9</a>
-            <a href="#">Bird10</a>
-        </div>
+        <script>$('.dropdown').load('modules/dropdown.html')</script>
     </div>
 </nav>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 </body>
 </html>
